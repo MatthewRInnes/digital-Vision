@@ -1,0 +1,32 @@
+/**
+ * Base TypeScript Configuration
+ * 
+ * Root TypeScript configuration file that references other config files.
+ * Defines:
+ * - Project references
+ * - Base compiler options
+ * - Path aliases
+ * - Type checking rules
+ */
+
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    // Path aliases for imports
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    // Type checking rules
+    "noImplicitAny": false,
+    "noUnusedParameters": false,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "noUnusedLocals": false,
+    "strictNullChecks": false
+  }
+}

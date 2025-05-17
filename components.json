@@ -1,0 +1,30 @@
+/**
+	* shadcn/ui Components Configuration
+	*
+	* Configuration file for shadcn/ui component library.
+	* Defines:
+	* - Component styling preferences
+	* - TypeScript and React Server Components settings
+	* - Tailwind CSS configuration
+	* - Project path aliases
+	*/
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "default",
+  "rsc": false,
+  "tsx": true,
+  "tailwind": {
+    "config": "tailwind.config.ts",
+    "css": "src/index.css",
+    "baseColor": "slate",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  }
+}
