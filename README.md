@@ -26,7 +26,7 @@ Install dependencies by running cd digital-agency-portfolio and then npm install
 Start the development server with npm run dev
 
 
-[digitalVision1](https://github.com/user-attachments/assets/ca5440cf-9c9f-4848-befb-97c664310612)
+![digitalVision1](https://github.com/user-attachments/assets/ca5440cf-9c9f-4848-befb-97c664310612)
 
 License
 
