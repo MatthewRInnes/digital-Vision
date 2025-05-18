@@ -13,7 +13,7 @@ Smooth animations and transitions
 SEO optimised with meta tags
 Social media integration
 
-Getting Started
+
 
 Node.js version 16 or higher
 npm or yarn package manager
@@ -41,4 +41,5 @@ Implements modern web development practices
 Follows accessibility guidelines
 Optimised for performance and SEO
 
+[digitalVision1](https://github.com/user-attachments/assets/ca5440cf-9c9f-4848-befb-97c664310612)
 
